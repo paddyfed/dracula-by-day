@@ -1,0 +1,13 @@
+{
+    "users": [
+      "Adam",
+      "Brian",
+      "Carl",
+      "Ruby",
+      "Edward"
+    ],
+    "admins": [
+      "Adam",
+      "Ruby"
+    ]
+  }
