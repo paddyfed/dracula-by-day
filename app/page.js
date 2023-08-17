@@ -2,12 +2,21 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 async function getJournalEntries() {
-  const res = await fetch('http://localhost:3000/api/journalentries');
+  const today = await getToday();
+  const res = await fetch(`http://localhost:3000/api/journalentries/${today}`);
   return res.json();
+}
+
+async function getToday() {
+  const today = new Date();
+
+  return today.toLocaleDateString("en-us",{ month: "long", day: "2-digit" }).replace(/ /g, "");
 }
 
 export default async function Home() {
   const entries = await getJournalEntries();
+
+  const today = await getToday();
 
   return (
     <main className={styles.main}>
@@ -24,6 +33,10 @@ export default async function Home() {
           </>
         })
       }
+      
+      { today} 
+
+      
 
     </main>
   )
