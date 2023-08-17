@@ -2,49 +2,17 @@
     "journalentries": [
         {
             "id": 1,
-            "name": "Leanne Graham",
-            "username": "Bret",
-            "email": "Sincere@april.biz",
-            "address": {
-                "street": "Kulas Light",
-                "suite": "Apt. 556",
-                "city": "Gwenborough",
-                "zipcode": "92998-3874",
-                "geo": {
-                    "lat": "-37.3159",
-                    "lng": "81.1496"
-                }
-            },
-            "phone": "1-770-736-8031 x56442",
-            "website": "hildegard.org",
-            "company": {
-                "name": "Romaguera-Crona",
-                "catchPhrase": "Multi-layered client-server neural-net",
-                "bs": "harness real-time e-markets"
-            }
+            "month": "May",
+            "day": "03",
+            "entry": "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East; the most western of splendid bridges over the Danube, which is here of noble width and depth, took us among the traditions of Turkish rule."
+           
         },
         {
             "id": 2,
-            "name": "Ervin Howell",
-            "username": "Antonette",
-            "email": "Shanna@melissa.tv",
-            "address": {
-                "street": "Victor Plains",
-                "suite": "Suite 879",
-                "city": "Wisokyburgh",
-                "zipcode": "90566-7771",
-                "geo": {
-                    "lat": "-43.9509",
-                    "lng": "-34.4618"
-                }
-            },
-            "phone": "010-692-6593 x09125",
-            "website": "anastasia.net",
-            "company": {
-                "name": "Deckow-Crist",
-                "catchPhrase": "Proactive didactic contingency",
-                "bs": "synergize scalable supply-chains"
-            }
+            "month": "May",
+            "day": "04",
+            "entry": "4 May.—I found that my landlord had got a letter from the Count, directing him to secure the best place on the coach for me; but on making inquiries as to details he seemed somewhat reticent, and pretended that he could not understand my German. This could not be true, because up to then he had understood it perfectly; at least, he answered my questions exactly as if he did. He and his wife, the old lady who had received me, looked at each other in a frightened sort of way. He mumbled out that the money had been sent in a letter, and that was all he knew. When I asked him if he knew Count Dracula, and could tell me anything of his castle, both he and his wife crossed themselves, and, saying that they knew nothing at all, simply refused to speak further. It was so near the time of starting that I had no time to ask any one else, for it was all very mysterious and not by any means comforting.\nJust before I was leaving, the old lady came up to my room and said in a very hysterical way: \n“Must you go? Oh! young Herr, must you go?” She was in such an excited state that she seemed to have lost her grip of what German she knew, and mixed it all up with some other language which I did not know at all. I was just able to follow her by asking many questions. When I told her that I must go at once, and that I was engaged on important business, she asked again:\n“Do you know what day it is?” I answered that it was the fourth of May. She shook her head as she said again: \n“Oh, yes! I know that! I know that, but do you know what day it is?” On my saying that I did not understand, she went on:"
+            
         }
     ]
 }
