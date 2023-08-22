@@ -10,7 +10,7 @@ async function getJournalEntries() {
 async function getToday() {
   const today = new Date();
 
-  return today.toLocaleDateString("en-us",{ month: "long", day: "2-digit" }).replace(/ /g, "");
+  return `${today.toLocaleDateString("en-us",{ month: "long"})}-${today.toLocaleDateString("en-us",{ day: "2-digit"})}`;
 }
 
 export default async function Home() {
@@ -34,10 +34,6 @@ export default async function Home() {
         })
       }
       
-      { today} 
-
-      
-
     </main>
   )
 }

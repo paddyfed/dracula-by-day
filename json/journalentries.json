@@ -5,26 +5,41 @@
             "month": "May",
             "day": "03",
             "entry": "3 May. Bistritz.—Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East; the most western of splendid bridges over the Danube, which is here of noble width and depth, took us among the traditions of Turkish rule."
-           
         },
         {
             "id": 2,
             "month": "May",
             "day": "04",
             "entry": "4 May.—I found that my landlord had got a letter from the Count, directing him to secure the best place on the coach for me; but on making inquiries as to details he seemed somewhat reticent, and pretended that he could not understand my German. This could not be true, because up to then he had understood it perfectly; at least, he answered my questions exactly as if he did. He and his wife, the old lady who had received me, looked at each other in a frightened sort of way. He mumbled out that the money had been sent in a letter, and that was all he knew. When I asked him if he knew Count Dracula, and could tell me anything of his castle, both he and his wife crossed themselves, and, saying that they knew nothing at all, simply refused to speak further. It was so near the time of starting that I had no time to ask any one else, for it was all very mysterious and not by any means comforting.Just before I was leaving, the old lady came up to my room and said in a very hysterical way: “Must you go? Oh! young Herr, must you go?” She was in such an excited state that she seemed to have lost her grip of what German she knew, and mixed it all up with some other language which I did not know at all. I was just able to follow her by asking many questions. When I told her that I must go at once, and that I was engaged on important business, she asked again:“Do you know what day it is?” I answered that it was the fourth of May. She shook her head as she said again: “Oh, yes! I know that! I know that, but do you know what day it is?” On my saying that I did not understand, she went on:"
-            
         },
         {
             "id": 3,
             "month": "August",
             "day": "18",
+            "source":"Mina Murray’s Journal.",
             "entry": "18 August.—I am happy to-day, and write sitting on the seat in the churchyard. Lucy is ever so much better. Last night she slept well all night, and did not disturb me once. The roses seem coming back already to her cheeks, though she is still sadly pale and wan-looking. If she were in any way anæmic I could understand it, but she is not. She is in gay spirits and full of life and cheerfulness. All the morbid reticence seems to have passed from her, and she has just reminded me, as if I needed any reminding, of that night, and that it was here, on this very seat, I found her asleep. As she told me she tapped playfully with the heel of her boot on the stone slab and said:—"
         },
         {
             "id": 4,
             "month": "August",
+            "source": "Mina Murray’s Journal.",
             "day": "17",
             "entry": "17 August.—No diary for two whole days. I have not had the heart to write. Some sort of shadowy pall seems to be coming over our happiness. No news from Jonathan, and Lucy seems to be growing weaker, whilst her mother’s hours are numbering to a close. I do not understand Lucy’s fading away as she is doing. She eats well and sleeps well, and enjoys the fresh air; but all the time the roses in her cheeks are fading, and she gets weaker and more languid day by day; at night I hear her gasping as if for air. I keep the key of our door always fastened to my wrist at night, but she gets up and walks about the room, and sits at the open window. Last night I found her leaning out when I woke up, and when I tried to wake her I could not; she was in a faint. When I managed to restore her she was as weak as water, and cried silently between long, painful struggles for breath. When I asked her how she came to be at the window she shook her head and turned away. I trust her feeling ill may not be from that unlucky prick of the safety-pin. I looked at her throat just now as she lay asleep, and the tiny wounds seem not to have healed. They are still open, and, if anything, larger than before, and the edges of them are faintly white. They are like little white dots with red centres. Unless they heal within a day or two, I shall insist on the doctor seeing about them."
+        },
+        {
+            "id": 5,
+            "month": "August",
+            "day": "22",
+            "source": "Dr. Seward’s Diary.",
+            "entry": "23 August.—“The unexpected always happens.” How well Disraeli knew life. Our bird when he found the cage open would not fly, so all our subtle arrangements were for nought. At any rate, we have proved one thing; that the spells of quietness last a reasonable time. We shall in future be able to ease his bonds for a few hours each day. I have given orders to the night attendant merely to shut him in the padded room, when once he is quiet, until an hour before sunrise. The poor soul’s body will enjoy the relief even if his mind cannot appreciate it. Hark! The unexpected again! I am called; the patient has once more escaped. Later.—Another night adventure. Renfield artfully waited until the attendant was entering the room to inspect. Then he dashed out past him and flew down the passage. I sent word for the attendants to follow. Again he went into the grounds of the deserted house, and we found him in the same place, pressed against the old chapel door. When he saw me he became furious, and had not the attendants seized him in time, he would have tried to kill me. As we were holding him a strange thing happened. He suddenly redoubled his efforts, and then as suddenly grew calm. I looked round instinctively, but could see nothing. Then I caught the patient’s eye and followed it, but could trace nothing as it looked into the moonlit sky except a big bat, which was flapping its silent and ghostly way to the west. Bats usually wheel and flit about, but this one seemed to go straight on, as if it knew where it was bound for or had some intention of its own. The patient grew calmer every instant, and presently said:— “You needn’t tie me; I shall go quietly!” Without trouble we came back to the house. I feel there is something ominous in his calm, and shall not forget this night...."
+        },
+        {
+            "id": 6,
+            "month": "August",
+            "day": "24",
+            "source": "Lucy Westenra’s Diary",
+            "entry": "Hillingham, 24 August.—I must imitate Mina, and keep writing things down. Then we can have long talks when we do meet. I wonder when it will be. I wish she were with me again, for I feel so unhappy. Last night I seemed to be dreaming again just as I was at Whitby. Perhaps it is the change of air, or getting home again. It is all dark and horrid to me, for I can remember nothing; but I am full of vague fear, and I feel so weak and worn out. When Arthur came to lunch he looked quite grieved when he saw me, and I hadn’t the spirit to try to be cheerful. I wonder if I could sleep in mother’s room to-night. I shall make an excuse and try."
         }
+        
     ]
 }
