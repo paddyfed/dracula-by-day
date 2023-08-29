@@ -21,7 +21,7 @@ export default function JournalEntry({ api }) {
 
     if (error) return ("An error has occurred.");
     if (isLoading) return("Loading... ");
-    // if (data.journalentries.length() === 0) return ("No data");
+    if (data.journalentries.length === 0) return ("No Data");
 
     return <>{data.journalentries.map((d) => {
         return <>
