@@ -5,14 +5,12 @@ import useSWR from 'swr';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
-function getToday() {
-    const today = new Date();
-  
+function getToday(today) {
     return `${today.toLocaleDateString("en-us",{ month: "long"})}-${today.toLocaleDateString("en-us",{ day: "2-digit"})}`;
   }
 
 export default function JournalEntry({ api }) {
-    const today = getToday();
+    const today = getToday(new Date());
     const todayApi = `${api}${today}`
     const { data, error, isLoading } = useSWR(
         todayApi,
@@ -21,7 +19,7 @@ export default function JournalEntry({ api }) {
 
     if (error) return ("An error has occurred.");
     if (isLoading) return("Loading... ");
-    if (data.journalentries.length === 0) return ("No Data");
+    if (data.journalentries.length === 0) return (`No Data for ${today}` );
 
     return <>{data.journalentries.map((d) => {
         return <>
