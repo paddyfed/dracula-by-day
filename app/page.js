@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import styles from './page.module.css'
 import React from 'react';
-import useSWR from 'swr';
 import JournalEntry from './components/journal-entry';
 
 
