@@ -3,6 +3,7 @@
 import React from 'react';
 import useSWR from 'swr';
 import EntryText from './entry-text'
+import Spinner from './spinner';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -19,11 +20,11 @@ export default function JournalEntry({ api }) {
   );
 
   if (error) return ("An error has occurred.");
-  if (isLoading) return ("Loading... ");
+  if (isLoading) return <Spinner />
   if (data.journalentries.length === 0) return (`No Data for ${today}`);
 
   return <><h2>{data.journalentries[0].month} {data.journalentries[0].day}</h2>
-  {data.journalentries.map((entry) => {
-    return <EntryText key={entry.id} entry={entry}></EntryText>     
-  })}</>
+    {data.journalentries.map((entry) => {
+      return <EntryText key={entry.id} entry={entry} />
+    })}</>
 }
