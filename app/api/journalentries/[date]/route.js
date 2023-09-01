@@ -28,7 +28,7 @@ function getLatestJournalEntries(date, filtered) {
         return filtered;
     }
     
-    filtered = journalentries.journalentries.filter(month => `${month.month.toLowerCase()}-${month.day.toLowerCase()}` === date.toLowerCase())
+    filtered = journalentries.journalentries.filter(entry => `${entry.month.toLowerCase()}-${entry.day.toLowerCase()}` === date.toLowerCase())
 
     // if we get here then filtered has no results
     // so we need to parse the date so that we can minus 1 day from it
