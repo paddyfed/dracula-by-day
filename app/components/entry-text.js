@@ -1,9 +1,12 @@
-export default function EntryText({ entry }) {
-    return <>
-        <h3>{entry.source}</h3>
+import JournalEntry from "./journal-entry"
+import LetterEntry from "./letter-entry"
 
-        {entry.entry.map((entry, index) => {
-          return <p key={index}>{entry}</p>
-        })}
-    </>
+export default function EntryText({ entry }) {
+
+  if (entry.sourceType === "Letter") {
+    return <LetterEntry entry={entry} />
+  }
+
+  return <JournalEntry entry={entry} />
+
 }
