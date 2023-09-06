@@ -8,13 +8,5 @@ export default function EntryText({ entry }) {
   }
 
   return <JournalEntry entry={entry} />
-  
-  
-  // <>
-  //   <h3>{entry.source}</h3>
-  //   <p>"Journal"</p>
-  //   {entry.entry.map((entry, index) => {
-  //     return <p key={index}>{entry}</p>
-  //   })}
-  // </>
+
 }
