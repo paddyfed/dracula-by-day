@@ -1,12 +1,13 @@
+import styles from "./journal-entry.module.css";
 
-export default function JournalEntry(entry) {
+export default function JournalEntry({entry}) {
     return (
-        <>
-            <h3>{entry.entry.source}</h3>
-            {entry.entry.entry.map((entry, index) => {
+        <article className={styles.journal}>
+            <h3 className={styles.journalHeading}>{entry.source}</h3>
+            {entry.entry.map((entry, index) => {
                 return <p key={index}>{entry}</p>
             })}
-        </>
+        </article>
     );
 
 }

@@ -1,4 +1,4 @@
-.letter {
+.journal {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -7,13 +7,13 @@
     background-color: whitesmoke;
 }
 
-.letterHeading {
+.journalHeading {
     align-self: center;
 }
 
 @media (prefers-color-scheme: dark) {
 
-    .letter {
+    .journal {
         color: rgb(var(--foreground-rgb));
         background: linear-gradient(to bottom,
                 transparent,
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 700px) {
-    .letter {
+    .journal {
         padding: 0;
     }
 }
