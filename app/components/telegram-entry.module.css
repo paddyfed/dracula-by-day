@@ -4,7 +4,8 @@
     gap: 1.5rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
-    background-color: whitesmoke;
+    background-color: wheat;
+    width: 60vw;
 }
 
 .telegramHeading {
