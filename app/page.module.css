@@ -3,7 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem;
+  max-width: 80vw;
+  margin: auto;
+  padding: 3em;
   min-height: 100vh;
   gap: 1.5rem;
 }
