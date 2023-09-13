@@ -23,5 +23,5 @@ export default async function DateJournalEntry({ api }) {
     {data.journalentries.map((entry) => {
       return <EntryText key={entry.id} entry={entry} />
     })}
-    <Link href="/August-22">Next</Link></>
+    </>
 }

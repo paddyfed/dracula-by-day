@@ -1,6 +1,8 @@
 import React from "react";
 import DateJournalEntry from "../components/date-journal-entry";
 import Link from "next/link";
+import styles from '../page.module.css'
+
 
 function getParamDay(date) {
     return +date.split('-')[1];
@@ -30,15 +32,13 @@ export default function EntryPage({ params }) {
     const yesterdayLink = `/${dateMinusOneDay(params.entry)}`;
     const tomorrowLink = `/${datePlusOneDay(params.entry)}`;
 
-    return <>
-        <p>{api}</p>
-        <p><Link href={yesterdayLink}>Yesterday {dateMinusOneDay(params.entry)}</Link></p>
-        <p>Today (Params.Entry) {params.entry}</p>
-        <p><Link href={tomorrowLink}>Tomorrow {datePlusOneDay(params.entry)}</Link></p>
-        <p>getParamMonthNumber {getParamMonthNumber(params.entry)}</p>
-        <p>getParamMonth {getParamMonth(params.entry)}</p>
-        <p>getParamDay {getParamDay(params.entry)}</p>
-        <DateJournalEntry api={api}></DateJournalEntry>
-    </>;
+    return <main className={styles.main}>
+        <div className={styles.navigation}><Link href={yesterdayLink}>Previous Entry</Link><h1>Dracula</h1><Link href={tomorrowLink}>Next Entry</Link></div>
+        
+        <p>by</p>
+        <p>Bram Stoker</p>
+        <p>How these papers have been placed in sequence will be made manifest in the reading of them. All needless matters have been eliminated, so that a history almost at variance with the possibilities of later-day belief may stand forth as simple fact. There is throughout no statement of past things wherein memory may err, for all the records chosen are exactly contemporary, given from the standpoints and within the range of knowledge of those who made them.</p>
 
+        <DateJournalEntry api={api}></DateJournalEntry>
+    </main>
 }
