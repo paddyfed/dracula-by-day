@@ -110,6 +110,16 @@
 .logo {
   position: relative;
 }
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  bottom: 0;
+  align-self:flex-start;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
