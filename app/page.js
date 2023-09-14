@@ -1,7 +1,7 @@
 import styles from './page.module.css'
 import React from 'react';
 import LatestJournalEntry from './components/latest-journal-entry';
-import MainPageNavAndHeading from './components/main-page-nav-and-heading';
+import MainPageNav from './components/main-page-nav-and-heading';
 
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
 
       <LatestJournalEntry api={api}></LatestJournalEntry>
 
-    </main><MainPageNavAndHeading />
+    </main><MainPageNav />
   </>;
 
 
