@@ -114,7 +114,6 @@
 .navigation {
   padding: 1.5em;
   text-align: center;
-  /* background: red; */
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;

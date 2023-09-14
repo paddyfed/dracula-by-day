@@ -13,8 +13,8 @@ export default function Home() {
     <main className={styles.main}>
       <Heading />
       <LatestJournalEntry api={api}></LatestJournalEntry>
-
-    </main><MainPageNav />
+    </main>
+    <MainPageNav />
   </>;
 
 
