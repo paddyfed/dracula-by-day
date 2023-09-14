@@ -4,12 +4,9 @@ import React from 'react';
 import useSWR from 'swr';
 import EntryText from './entry-text'
 import Spinner from './spinner';
+import { getToday } from '../utils/dateHelpers';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
-
-function getToday(today) {
-  return `${today.toLocaleDateString("en-us", { month: "long" })}-${today.toLocaleDateString("en-us", { day: "2-digit" })}`;
-}
 
 export default function LatestJournalEntry  ({ api }) {
   const today = getToday(new Date());
