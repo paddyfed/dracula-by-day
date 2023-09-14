@@ -10,5 +10,5 @@ export default function MainPageNavAndHeading() {
     const yesterdayLink = `/${dateMinusOneDay(today)}`;
     const tomorrowLink = `/${datePlusOneDay(today)}`;
 
-    return <div className={styles.navigation}><Link href={yesterdayLink}>Previous Entry</Link><h1>Dracula</h1><Link href={tomorrowLink}>Next Entry</Link></div>
+    return <div className={styles.navigation}><Link href={yesterdayLink}>Previous Entry</Link><Link href={tomorrowLink}>Next Entry</Link></div>
 }
