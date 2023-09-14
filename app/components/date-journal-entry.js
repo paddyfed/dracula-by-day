@@ -1,6 +1,5 @@
 import React from "react";
 import EntryText from "./entry-text";
-import Link from "next/link";
 
 async function getData(api) {
     const res = await fetch(api);
