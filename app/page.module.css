@@ -5,7 +5,7 @@
   align-items: center;
   max-width: 80vw;
   margin: auto;
-  padding: 3em;
+  padding: 3em 3em 6em;
   min-height: 100vh;
   gap: 1.5rem;
 }
@@ -100,7 +100,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -114,11 +114,12 @@
 .navigation {
   padding: 1.5em;
   text-align: center;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  background-color: white;
 }
 
 /* Enable hover only on non-touch devices */
@@ -192,9 +193,11 @@
     border-radius: 0;
     border: none;
     border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
-    background: linear-gradient(to bottom,
-        rgba(var(--background-start-rgb), 1),
-        rgba(var(--callout-rgb), 0.5));
+    background: linear-gradient(
+      to bottom,
+      rgba(var(--background-start-rgb), 1),
+      rgba(var(--callout-rgb), 0.5)
+    );
     background-clip: padding-box;
     backdrop-filter: blur(24px);
   }
@@ -205,9 +208,11 @@
     inset: auto 0 0;
     padding: 2rem;
     height: 200px;
-    background: linear-gradient(to bottom,
-        transparent 0%,
-        rgb(var(--background-end-rgb)) 40%);
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgb(var(--background-end-rgb)) 40%
+    );
     z-index: 1;
   }
 }
