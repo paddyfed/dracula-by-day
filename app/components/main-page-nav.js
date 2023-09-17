@@ -10,5 +10,5 @@ export default function MainPageNav({today = getToday(new Date())}) {
     const yesterdayLink = `/${dateMinusOneDay(today)}`;
     const tomorrowLink = `/${datePlusOneDay(today)}`;
 
-    return <div className={styles.navigation}><Link href={yesterdayLink}>Previous Entry</Link><Link href={tomorrowLink}>Next Entry</Link></div>
+    return <div className={styles.navigation}><Link href={yesterdayLink} className={styles.navigationLink}>Previous Entry</Link><Link href={tomorrowLink} className={styles.navigationLink}>Next Entry</Link></div>
 }

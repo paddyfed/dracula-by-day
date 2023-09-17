@@ -122,6 +122,10 @@
   background-color: rgb(var(--background-start-rgb));
 }
 
+.navigationLink {
+  width: 25%;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
