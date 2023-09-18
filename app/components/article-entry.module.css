@@ -1,0 +1,51 @@
+.article {
+  padding: 1.5rem;
+  border-radius: 0.2rem;
+  color: #2f2f2f;
+  background-color: #f9f7f1;
+  font-size: 14px;
+}
+
+.articleHeading {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  margin-bottom: 1.5rem;
+}
+
+.articleParagraphs {
+  column-count: 2;
+  column-rule: 1px solid;
+  gap: 2rem;
+}
+
+.articleParagraphs p {
+  padding-bottom: 1.5rem;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .article {
+    padding:0;
+    background-color: transparent;
+  }
+    .articleParagraphs {
+    column-count: 1;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .article {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
+    
+  }
+}
