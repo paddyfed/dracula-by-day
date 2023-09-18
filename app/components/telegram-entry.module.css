@@ -1,29 +1,32 @@
 .telegram {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    padding: 1.5rem;
-    border-radius: 1.5rem;
-    background-color: wheat;
-    width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: wheat;
+  width: 60vw;
 }
 
 .telegramHeading {
-    align-self: center;
+  align-self: center;
 }
 
 @media (prefers-color-scheme: dark) {
-
-    .telegram {
-        color: rgb(var(--foreground-rgb));
-        background: linear-gradient(to bottom,
-                transparent,
-                rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-    }
+  .telegram {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
+  }
 }
 
 @media (max-width: 700px) {
-    .telegram {
-        padding: 0;
-    }
+  .telegram {
+    padding: 0;
+    background: transparent;
+  }
 }

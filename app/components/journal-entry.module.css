@@ -1,28 +1,32 @@
 .journal {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    padding: 1.5rem;
-    border-radius: 1.5rem;
-    background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: whitesmoke;
 }
 
 .journalHeading {
-    align-self: center;
+  align-self: center;
 }
 
 @media (prefers-color-scheme: dark) {
-
-    .journal {
-        color: rgb(var(--foreground-rgb));
-        background: linear-gradient(to bottom,
-                transparent,
-                rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-    }
+  .journal {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
+  }
 }
 
 @media (max-width: 700px) {
-    .journal {
-        padding: 0;
-    }
+  .journal {
+    padding: 0;
+    color: rgb(var(--foreground-rgb));
+    background: transparent
+  }
 }
