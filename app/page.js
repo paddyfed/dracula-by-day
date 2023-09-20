@@ -7,7 +7,7 @@ import Heading from './components/heading';
 
 export default function Home() {
 
-  const api = `${process.env.API_URL}api/journalentries/`;
+  const api = `${process.env.API_URL}api/journalentries/date/`;
 
   return <>
     <main className={styles.main}>
