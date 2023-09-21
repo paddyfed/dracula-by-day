@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import journalentries from "@/json/journalentries.json";
-import { dateMinusOneDay } from "@/app/utils/dateHelpers";
 
 export async function GET(request, { params }) {
   const source = params.source;
