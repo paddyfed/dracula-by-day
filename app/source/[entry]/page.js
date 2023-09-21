@@ -1,7 +1,6 @@
 import React from "react";
 import SourceJournalEntry from "../../components/source-journal-entry";
 import styles from "../../page.module.css";
-import MainPageNav from "../../components/main-page-nav";
 import Heading from "../../components/heading";
 
 export default function EntryPage({ params }) {
