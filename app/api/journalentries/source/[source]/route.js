@@ -6,7 +6,7 @@ export async function GET(request, { params }) {
   const source = params.source;
 
   const filtered = journalentries.journalentries.filter(
-    (entry) => `${entry.source.toLowerCase()}` === source.toLowerCase()
+    (entry) => `${entry.source.toLowerCase()}` === source.toLowerCase(),
   );
 
   const data = await NextResponse.json({ journalentries: filtered });
