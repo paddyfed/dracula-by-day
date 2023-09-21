@@ -1,16 +1,6 @@
 import React from "react";
 import EntryText from "./entry-text";
-
-async function getData(api) {
-    const res = await fetch(api);
-
-    if(!res.ok) {
-        throw new Error("Failed to fetch data");
-
-    }
-
-    return res.json();
-}
+import { getData } from "../utils/apiHelpers";
 
 export default async function DateJournalEntry({ api }) {
 
