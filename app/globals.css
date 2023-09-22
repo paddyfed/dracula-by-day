@@ -105,3 +105,22 @@ a {
     color-scheme: dark;
   }
 }
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(var(--background-start-rgb));
+  border-bottom: 1px solid;
+  padding: 1.5em;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+}
