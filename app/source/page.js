@@ -1,17 +1,30 @@
 import Heading from "../components/heading";
 import styles from "../page.module.css";
 import Link from "next/link";
+import { getData } from "../utils/apiHelpers";
 
-export default function SourcePage() {
+const api = `${process.env.API_URL}api/journalentries/`;
+
+export default async function SourcePage() {
+  const data = await getData(api);
+
+  if (data.journalentries.length === 0) return `No Data for Today`;
+
+  const valueArray = data.journalentries.map((source) => source.source);
+  const unique = new Set(valueArray);
+  const uniqueArray = [...unique];
+
   return (
     <>
       <main className={styles.main}>
         <Heading />
-        <Link href={"/source/Jonathan%20Harker’s%20Journal."}>
-          Jonathan's Journal
-        </Link>
-        <Link href={"/source/Mina%20Harker’s%20Journal."}>Mina's Journal</Link>
-        <Link href={"/source/Dr.%20Seward’s%20Diary."}>Dr Seward's Diary</Link>
+        {uniqueArray.map((entry, index) => {
+          return (
+            <p key={index}>
+              <Link href={`/source/${entry}`}>{entry}</Link>
+            </p>
+          );
+        })}
       </main>
     </>
   );
