@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
               <li>
                 <Link href={"/source"}>Sources</Link>
               </li>
-              <li>Source Type</li>
+              <li>
+                <Link href={"/sourcetype"}>Source Type</Link>
+              </li>
             </ul>
           </nav>
         </header>
