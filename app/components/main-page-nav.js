@@ -16,12 +16,8 @@ export default function MainPageNav({ today = getToday(new Date()) }) {
 
   return (
     <div className={styles.navigation}>
-      <Link href={yesterdayLink} className={styles.navigationLink}>
-        Previous Entry
-      </Link>
-      <Link href={tomorrowLink} className={styles.navigationLink}>
-        Next Entry
-      </Link>
+      <Link href={yesterdayLink}>Previous Entry</Link>
+      <Link href={tomorrowLink}>Next Entry</Link>
     </div>
   );
 }

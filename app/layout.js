@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Link from "next/link";
+import Image from "next/image";
 config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,6 +22,16 @@ export default function RootLayout({ children }) {
             <ul>
               <li>
                 <Link href={"/source"}>Sources</Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <Image
+                    src="/Vampire_icon-icons-com_75033.png"
+                    width={32}
+                    height={32}
+                    alt="Dracula"
+                  />
+                </Link>
               </li>
               <li>
                 <Link href={"/sourcetype"}>Source Type</Link>
