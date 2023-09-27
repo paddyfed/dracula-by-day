@@ -4,6 +4,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Link from "next/link";
 import Image from "next/image";
+import vampireIcon from "../public/Vampire_icon-icons-com_75033.png";
 config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
               <li>
                 <Link href="/">
                   <Image
-                    src="/Vampire_icon-icons-com_75033.png"
+                    src={vampireIcon}
                     width={32}
                     height={32}
                     alt="Dracula"
