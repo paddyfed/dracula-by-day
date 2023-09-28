@@ -1,5 +1,4 @@
 import styles from "./letter-body.module.css";
-import styles from "./letter-body.module.css";
 
 export default function LetterBody({ body, handwriting }) {
   return (
@@ -11,6 +10,4 @@ export default function LetterBody({ body, handwriting }) {
       })}
     </section>
   );
-  );
 }
-
