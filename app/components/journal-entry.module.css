@@ -27,6 +27,6 @@
   .journal {
     padding: 0;
     color: rgb(var(--foreground-rgb));
-    background: transparent
+    background: transparent;
   }
 }

@@ -2834,16 +2834,6 @@
       ]
     },
     {
-      "id": 165,
-      "month": "October",
-      "day": "02",
-      "source": "Mina Harker’s Journal.",
-      "sourceType": "Journal",
-      "entry": [
-        "2 October 10 p. m.—Last night I slept, but did not dream. I must have slept soundly, for I was not waked by Jonathan coming to bed; but the sleep has not refreshed me, for to-day I feel terribly weak and spiritless. I spent all yesterday trying to read, or lying down dozing. In the afternoon Mr. Renfield asked if he might see me. Poor man, he was very gentle, and when I came away he kissed my hand and bade God bless me. Some way it affected me much; I am crying when I think of him. This is a new weakness, of which I must be careful. Jonathan would be miserable if he knew I had been crying. He and the others were out till dinner-time, and they all came in tired. I did what I could to brighten them up, and I suppose that the effort did me good, for I forgot how tired I was. After dinner they sent me to bed, and all went off to smoke together, as they said, but I knew that they wanted to tell each other of what had occurred to each during the day; I could see from Jonathan’s manner that he had something important to communicate. I was not so sleepy as I should have been; so before they went I asked Dr. Seward to give me a little opiate of some kind, as I had not slept well the night before. He very kindly made me up a sleeping draught, which he gave to me, telling me that it would do me no harm, as it was very mild.... I have taken it, and am waiting for sleep, which still keeps aloof. I hope I have not done wrong, for as sleep begins to flirt with me, a new fear comes: that I may have been foolish in thus depriving myself of the power of waking. I might want it. Here comes sleep. Good-night."
-      ]
-    },
-    {
       "id": 166,
       "month": "October",
       "day": "01",
@@ -2855,6 +2845,31 @@
         "“Well, guv’nor, you’ve treated me wery ’an’some”—I had given him half a sovereign—“an’ I’ll tell yer all I know. I heard a man by the name of Bloxam say four nights ago in the ’Are an’ ’Ounds, in Pincher’s Alley, as ’ow he an’ his mate ’ad ’ad a rare dusty job in a old ’ouse at Purfect. There ain’t a-many such jobs as this ’ere, an’ I’m thinkin’ that maybe Sam Bloxam could tell ye summut.” I asked if he could tell me where to find him. I told him that if he could get me the address it would be worth another half-sovereign to him. So he gulped down the rest of his tea and stood up, saying that he was going to begin the search then and there. At the door he stopped, and said:—",
         "“Look ’ere, guv’nor, there ain’t no sense in me a-keepin’ you ’ere. I may find Sam soon, or I mayn’t; but anyhow he ain’t like to be in a way to tell ye much to-night. Sam is a rare one when he starts on the booze. If you can give me a envelope with a stamp on it, and put yer address on it, I’ll find out where Sam is to be found and post it ye to-night. But ye’d better be up arter ’im soon in the mornin’, or maybe ye won’t ketch ’im; for Sam gets off main early, never mind the booze the night afore.”",
         "This was all practical, so one of the children went off with a penny to buy an envelope and a sheet of paper, and to keep the change. When she came back, I addressed the envelope and stamped it, and when Smollet had again faithfully promised to post the address when found, I took my way to home. We’re on the track anyhow. I am tired to-night, and want sleep. Mina is fast asleep, and looks a little too pale; her eyes look as though she had been crying. Poor dear, I’ve no doubt it frets her to be kept in the dark, and it may make her doubly anxious about me and the others. But it is best as it is. It is better to be disappointed and worried in such a way now than to have her nerve broken. The doctors were quite right to insist on her being kept out of this dreadful business. I must be firm, for on me this particular burden of silence must rest. I shall not ever enter on the subject with her under any circumstances. Indeed, it may not be a hard task, after all, for she herself has become reticent on the subject, and has not spoken of the Count or his doings ever since we told her of our decision."
+      ]
+    },
+    {
+      "id": 171,
+      "month": "October",
+      "day": "02",
+      "source": "Dr. Seward’s Diary.",
+      "entry": [
+        "2 October.—I placed a man in the corridor last night, and told him to make an accurate note of any sound he might hear from Renfield’s room, and gave him instructions that if there should be anything strange he was to call me. After dinner, when we had all gathered round the fire in the study—Mrs. Harker having gone to bed—we discussed the attempts and discoveries of the day. Harker was the only one who had any result, and we are in great hopes that his clue may be an important one.",
+        "Before going to bed I went round to the patient’s room and looked in through the observation trap. He was sleeping soundly, and his heart rose and fell with regular respiration.",
+        "This morning the man on duty reported to me that a little after midnight he was restless and kept saying his prayers somewhat loudly. I asked him if that was all; he replied that it was all he heard. There was something about his manner so suspicious that I asked him point blank if he had been asleep. He denied sleep, but admitted to having “dozed” for a while. It is too bad that men cannot be trusted unless they are watched.",
+        "To-day Harker is out following up his clue, and Art and Quincey are looking after horses. Godalming thinks that it will be well to have horses always in readiness, for when we get the information which we seek there will be no time to lose. We must sterilise all the imported earth between sunrise and sunset; we shall thus catch the Count at his weakest, and without a refuge to fly to. Van Helsing is off to the British Museum looking up some authorities on ancient medicine. The old physicians took account of things which their followers do not accept, and the Professor is searching for witch and demon cures which may be useful to us later.",
+        "I sometimes think we must be all mad and that we shall wake to sanity in strait-waistcoats."
+      ],
+      "sourceType": "Journal"
+    },
+    {
+      "id": 172,
+      "month": "October",
+      "day": "02",
+      "source": "Dr. Seward’s Diary.",
+      "sourceType": "Journal",
+      "entry": [
+        "Later.—We have met again. We seem at last to be on the track, and our work of to-morrow may be the beginning of the end. I wonder if Renfield’s quiet has anything to do with this. His moods have so followed the doings of the Count, that the coming destruction of the monster may be carried to him in some subtle way. If we could only get some hint as to what passed in his mind, between the time of my argument with him to-day and his resumption of fly-catching, it might afford us a valuable clue. He is now seemingly quiet for a spell.... Is he?—— That wild yell seemed to come from his room....",
+        "The attendant came bursting into my room and told me that Renfield had somehow met with some accident. He had heard him yell; and when he went to him found him lying on his face on the floor, all covered with blood. I must go at once...."
       ]
     },
     {
@@ -2903,6 +2918,16 @@
         "“Quincey’s head is level. This burglary business is getting serious; we got off once all right; but we have now a rare job on hand—unless we can find the Count’s key basket.”",
         "As nothing could well be done before morning, and as it would be at least advisable to wait till Lord Godalming should hear from Mitchell’s, we decided not to take any active step before breakfast time. For a good while we sat and smoked, discussing the matter in its various lights and bearings; I took the opportunity of bringing this diary right up to the moment. I am very sleepy and shall go to bed....",
         "Just a line. Mina sleeps soundly and her breathing is regular. Her forehead is puckered up into little wrinkles, as though she thinks even in her sleep. She is still too pale, but does not look so haggard as she did this morning. To-morrow will, I hope, mend all this; she will be herself at home in Exeter. Oh, but I am sleepy!"
+      ]
+    },
+    {
+      "id": 165,
+      "month": "October",
+      "day": "02",
+      "source": "Mina Harker’s Journal.",
+      "sourceType": "Journal",
+      "entry": [
+        "2 October 10 p. m.—Last night I slept, but did not dream. I must have slept soundly, for I was not waked by Jonathan coming to bed; but the sleep has not refreshed me, for to-day I feel terribly weak and spiritless. I spent all yesterday trying to read, or lying down dozing. In the afternoon Mr. Renfield asked if he might see me. Poor man, he was very gentle, and when I came away he kissed my hand and bade God bless me. Some way it affected me much; I am crying when I think of him. This is a new weakness, of which I must be careful. Jonathan would be miserable if he knew I had been crying. He and the others were out till dinner-time, and they all came in tired. I did what I could to brighten them up, and I suppose that the effort did me good, for I forgot how tired I was. After dinner they sent me to bed, and all went off to smoke together, as they said, but I knew that they wanted to tell each other of what had occurred to each during the day; I could see from Jonathan’s manner that he had something important to communicate. I was not so sleepy as I should have been; so before they went I asked Dr. Seward to give me a little opiate of some kind, as I had not slept well the night before. He very kindly made me up a sleeping draught, which he gave to me, telling me that it would do me no harm, as it was very mild.... I have taken it, and am waiting for sleep, which still keeps aloof. I hope I have not done wrong, for as sleep begins to flirt with me, a new fear comes: that I may have been foolish in thus depriving myself of the power of waking. I might want it. Here comes sleep. Good-night."
       ]
     },
     {
@@ -2982,31 +3007,6 @@
           "“Mitchell, Sons & Candy.”"
         ]
       }
-    },
-    {
-      "id": 171,
-      "month": "October",
-      "day": "02",
-      "source": "Dr. Seward’s Diary.",
-      "entry": [
-        "2 October.—I placed a man in the corridor last night, and told him to make an accurate note of any sound he might hear from Renfield’s room, and gave him instructions that if there should be anything strange he was to call me. After dinner, when we had all gathered round the fire in the study—Mrs. Harker having gone to bed—we discussed the attempts and discoveries of the day. Harker was the only one who had any result, and we are in great hopes that his clue may be an important one.",
-        "Before going to bed I went round to the patient’s room and looked in through the observation trap. He was sleeping soundly, and his heart rose and fell with regular respiration.",
-        "This morning the man on duty reported to me that a little after midnight he was restless and kept saying his prayers somewhat loudly. I asked him if that was all; he replied that it was all he heard. There was something about his manner so suspicious that I asked him point blank if he had been asleep. He denied sleep, but admitted to having “dozed” for a while. It is too bad that men cannot be trusted unless they are watched.",
-        "To-day Harker is out following up his clue, and Art and Quincey are looking after horses. Godalming thinks that it will be well to have horses always in readiness, for when we get the information which we seek there will be no time to lose. We must sterilise all the imported earth between sunrise and sunset; we shall thus catch the Count at his weakest, and without a refuge to fly to. Van Helsing is off to the British Museum looking up some authorities on ancient medicine. The old physicians took account of things which their followers do not accept, and the Professor is searching for witch and demon cures which may be useful to us later.",
-        "I sometimes think we must be all mad and that we shall wake to sanity in strait-waistcoats."
-      ],
-      "sourceType": "Journal"
-    },
-    {
-      "id": 172,
-      "month": "October",
-      "day": "02",
-      "source": "Dr. Seward’s Diary.",
-      "sourceType": "Journal",
-      "entry": [
-        "Later.—We have met again. We seem at last to be on the track, and our work of to-morrow may be the beginning of the end. I wonder if Renfield’s quiet has anything to do with this. His moods have so followed the doings of the Count, that the coming destruction of the monster may be carried to him in some subtle way. If we could only get some hint as to what passed in his mind, between the time of my argument with him to-day and his resumption of fly-catching, it might afford us a valuable clue. He is now seemingly quiet for a spell.... Is he?—— That wild yell seemed to come from his room....",
-        "The attendant came bursting into my room and told me that Renfield had somehow met with some accident. He had heard him yell; and when he went to him found him lying on his face on the floor, all covered with blood. I must go at once...."
-      ]
     },
     {
       "id": 173,
