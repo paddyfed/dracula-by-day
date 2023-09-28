@@ -1,4 +1,4 @@
-import styles from './letter-heading.module.css';
+import styles from "./letter-heading.module.css";
 
 export default function LetterHeading({ heading, handwriting }) {
   return (
@@ -9,4 +9,5 @@ export default function LetterHeading({ heading, handwriting }) {
         return <p key={index}>{entry}</p>;
       })}
     </section>
+  );
 }
