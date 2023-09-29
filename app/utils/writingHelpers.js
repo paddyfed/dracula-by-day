@@ -7,6 +7,7 @@ import {
   Marck_Script,
   Satisfy,
   Inter,
+  Courier_Prime,
 } from "next/font/google";
 
 const mina_handwriting = Dancing_Script({
@@ -18,11 +19,14 @@ const quincey_handwriting = Sacramento({ subsets: ["latin"], weight: ["400"] });
 const arthur_handwriting = Alex_Brush({ subsets: ["latin"], weight: ["400"] });
 const john_handwriting = Marck_Script({ subsets: ["latin"], weight: ["400"] });
 const abraham_handwriting = Satisfy({ subsets: ["latin"], weight: ["400"] });
+const default_typewriter = Courier_Prime({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 const sisteragatha_handwriting = Cookie({
   subsets: ["latin"],
   weight: ["400"],
 });
-const inter = Inter({ subsets: ["latin"], weight: ["400"] });
 
 export function getHandwriting(entry) {
   switch (entry.author) {
@@ -41,6 +45,6 @@ export function getHandwriting(entry) {
     case "SisterAgatha":
       return sisteragatha_handwriting.className;
     default:
-      return inter.className;
+      return default_typewriter.className;
   }
 }
