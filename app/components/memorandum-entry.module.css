@@ -1,0 +1,32 @@
+.memorandumentry {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: whitesmoke;
+}
+
+.memorandumHeading {
+  align-self: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .memorandum {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
+  }
+}
+
+@media (max-width: 700px) {
+  .memorandum {
+    padding: 0;
+    color: rgb(var(--foreground-rgb));
+    background: transparent;
+  }
+}
