@@ -1,3 +1,6 @@
 .headings {
   align-self: flex-end;
 }
+.xlargetext {
+  font-size: x-large;
+}

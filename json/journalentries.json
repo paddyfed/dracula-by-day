@@ -421,6 +421,7 @@
       "month": "May",
       "day": "09",
       "source": "Letter from Miss Mina Murray to Miss Lucy Westenra.",
+      "author": "Mina",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“9 May."],
@@ -438,6 +439,7 @@
       "month": "May",
       "day": "17",
       "source": "Letter, Lucy Westenra to Mina Murray.",
+      "author": "Lucy",
       "sourceType": "Letter",
       "entry": {
         "heading": [" “17, Chatham Street,"],
@@ -456,6 +458,7 @@
       "month": "May",
       "day": "24",
       "source": "Letter, Lucy Westenra to Mina Murray.",
+      "author": "Lucy",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“24 May."],
@@ -471,6 +474,7 @@
       "month": "May",
       "day": "24",
       "source": "Letter, Lucy Westenra to Mina Murray.",
+      "author": "Lucy",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“Evening."],
@@ -508,6 +512,7 @@
       "month": "May",
       "day": "25",
       "source": "Letter, Quincey P. Morris to Hon. Arthur Holmwood.",
+      "author": "Quincey",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“25 May."],
@@ -1150,6 +1155,7 @@
       "month": "August",
       "day": "12",
       "source": "Letter, Sister Agatha, Hospital of St. Joseph and Ste. Mary, Buda-Pesth, to Miss Wilhelmina Murray.",
+      "author": "SisterAgatha",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“12 August."],
@@ -1203,6 +1209,7 @@
       "month": "August",
       "day": "24",
       "source": "Letter, Mina Harker to Lucy Westenra.",
+      "author": "Mina",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“Buda-Pesth,", "24 August."],
@@ -1225,6 +1232,7 @@
       "month": "August",
       "day": "30",
       "source": "Letter, Lucy Westenra to Mina Harker.",
+      "author": "Lucy",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“Whitby,", "30 August."],
@@ -1297,6 +1305,7 @@
       "month": "August",
       "day": "31",
       "source": "Letter, Arthur Holmwood to Dr. Seward.",
+      "author": "Arthur",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“Albemarle Hotel,", "31 August."],
@@ -1323,6 +1332,7 @@
       "month": "September",
       "day": "02",
       "source": "Letter from Dr. Seward to Arthur Holmwood.",
+      "author": "John",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“2 September."],
@@ -1342,6 +1352,7 @@
       "month": "September",
       "day": "02",
       "source": "Letter, Abraham Van Helsing, M. D., D. Ph., D. Lit., etc., etc., to Dr. Seward.",
+      "author": "Abraham",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“2 September."],
@@ -1357,6 +1368,7 @@
       "month": "September",
       "day": "03",
       "source": "Letter, Dr. Seward to Hon. Arthur Holmwood.",
+      "author": "John",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“3 September."],
@@ -1436,6 +1448,7 @@
       "month": "September",
       "day": "06",
       "source": "Letter, Dr. Seward to Hon. Arthur Holmwood.",
+      "author": "John",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“6 September."],
@@ -1722,6 +1735,7 @@
       "month": "September",
       "day": "17",
       "source": "Memorandum left by Lucy Westenra.",
+      "author": "Lucy",
       "sourceType": "Letter",
       "entry": {
         "body": [
@@ -1796,6 +1810,7 @@
       "month": "September",
       "day": "17",
       "source": "Letter, Mina Harker to Lucy Westenra.",
+      "author": "Mina",
       "sourceType": "Letter",
       "entry": {
         "heading": ["(Unopened by her.)", "“17 September."],
@@ -1834,6 +1849,7 @@
       "month": "September",
       "day": "18",
       "source": "Letter, Mina Harker to Lucy Westenra.",
+      "author": "Mina",
       "sourceType": "Letter",
       "entry": {
         "heading": ["(Unopened by her.)", "“18 September."],
@@ -2069,6 +2085,7 @@
       "month": "September",
       "day": "24",
       "source": "Letter, Van Helsing to Mrs. Harker.",
+      "author": "Abraham",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“24 September.", "(Confidence)"],
@@ -2152,6 +2169,7 @@
       "month": "September",
       "day": "25",
       "source": "Letter (by hand), Van Helsing to Mrs. Harker.",
+      "author": "Abraham",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“25 September, 6 o’clock."],
@@ -2168,6 +2186,7 @@
       "month": "September",
       "day": "25",
       "source": "Letter, Mrs. Harker to Van Helsing.",
+      "author": "Mina",
       "sourceType": "Letter",
       "entry": {
         "heading": ["“25 September, 6:30 p. m."],
@@ -3929,6 +3948,7 @@
       "month": "November",
       "day": "04",
       "source": "Memorandum by Abraham Van Helsing.",
+      "author": "Abraham",
       "sourceType": "Memorandum",
       "entry": [
         "4 November.—This to my old and true friend John Seward, M.D., of Purfleet, London, in case I may not see him. It may explain. It is morning, and I write by a fire which all the night I have kept alive—Madam Mina aiding me. It is cold, cold; so cold that the grey heavy sky is full of snow, which when it falls will settle for all winter as the ground is hardening to receive it. It seems to have affected Madam Mina; she has been so heavy of head all day that she was not like herself. She sleeps, and sleeps, and sleeps! She who is usual so alert, have done literally nothing all the day; she even have lost her appetite. She make no entry into her little diary, she who write so faithful at every pause. Something whisper to me that all is not well. However, to-night she is more vif. Her long sleep all day have refresh and restore her, for now she is all sweet and bright as ever. At sunset I try to hypnotise her, but alas! with no effect; the power has grown less and less with each day, and to-night it fail me altogether. Well, God’s will be done—whatever it may be, and whithersoever it may lead!",
@@ -3947,6 +3967,7 @@
       "month": "November",
       "day": "05",
       "source": "Memorandum by Abraham Van Helsing.",
+      "author": "Abraham",
       "sourceType": "Memorandum",
       "entry": [
         "5 November, morning.—Let me be accurate in everything, for though you and I have seen some strange things together, you may at the first think that I, Van Helsing, am mad—that the many horrors and the so long strain on nerves has at the last turn my brain.",
