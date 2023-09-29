@@ -6,7 +6,6 @@ import {
   Alex_Brush,
   Marck_Script,
   Satisfy,
-  Inter,
   Courier_Prime,
 } from "next/font/google";
 

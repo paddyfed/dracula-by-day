@@ -12,7 +12,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .memorandum {
+  .memorandumentry {
     color: rgb(var(--foreground-rgb));
     background: linear-gradient(
         to bottom,
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 700px) {
-  .memorandum {
+  .memorandumentry {
     padding: 0;
     color: rgb(var(--foreground-rgb));
     background: transparent;
