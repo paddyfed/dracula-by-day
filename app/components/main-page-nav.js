@@ -16,8 +16,10 @@ export default function MainPageNav({ today = getToday(new Date()) }) {
 
   return (
     <div className={styles.navigation}>
-      <Link href={yesterdayLink}>Previous Entry</Link>
-      <Link href={tomorrowLink}>Next Entry</Link>
+      <Link href={yesterdayLink}>
+        {dateMinusOneDay(today).replace("-", " ")}
+      </Link>
+      <Link href={tomorrowLink}>{datePlusOneDay(today).replace("-", " ")}</Link>
     </div>
   );
 }
