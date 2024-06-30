@@ -6,8 +6,7 @@ export default function Heading() {
       <h1>
         <Link href="/">Dracula</Link>
       </h1>
-      <p>by</p>
-      <p>Bram Stoker</p>
+      <p>by Bram Stoker</p>
       <p>
         How these papers have been placed in sequence will be made manifest in
         the reading of them. All needless matters have been eliminated, so that
