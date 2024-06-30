@@ -10,7 +10,7 @@ export default async function DateJournalEntry({ api }) {
   return (
     <>
       <h2>
-        {data.journalentries[0].month} {data.journalentries[0].day}
+        {`Entries for ${data.journalentries[0].month} ${data.journalentries[0].day}`}
       </h2>
       {data.journalentries.map((entry) => {
         return <EntryText key={entry.id} entry={entry} />;
