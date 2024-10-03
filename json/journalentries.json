@@ -2861,17 +2861,7 @@
       ],
       "sourceType": "Journal"
     },
-    {
-      "id": 172,
-      "month": "October",
-      "day": "02",
-      "source": "Dr. Seward’s Diary.",
-      "sourceType": "Journal",
-      "entry": [
-        "Later.—We have met again. We seem at last to be on the track, and our work of to-morrow may be the beginning of the end. I wonder if Renfield’s quiet has anything to do with this. His moods have so followed the doings of the Count, that the coming destruction of the monster may be carried to him in some subtle way. If we could only get some hint as to what passed in his mind, between the time of my argument with him to-day and his resumption of fly-catching, it might afford us a valuable clue. He is now seemingly quiet for a spell.... Is he?—— That wild yell seemed to come from his room....",
-        "The attendant came bursting into my room and told me that Renfield had somehow met with some accident. He had heard him yell; and when he went to him found him lying on his face on the floor, all covered with blood. I must go at once...."
-      ]
-    },
+
     {
       "id": 167,
       "month": "October",
@@ -2928,6 +2918,17 @@
       "sourceType": "Journal",
       "entry": [
         "2 October 10 p. m.—Last night I slept, but did not dream. I must have slept soundly, for I was not waked by Jonathan coming to bed; but the sleep has not refreshed me, for to-day I feel terribly weak and spiritless. I spent all yesterday trying to read, or lying down dozing. In the afternoon Mr. Renfield asked if he might see me. Poor man, he was very gentle, and when I came away he kissed my hand and bade God bless me. Some way it affected me much; I am crying when I think of him. This is a new weakness, of which I must be careful. Jonathan would be miserable if he knew I had been crying. He and the others were out till dinner-time, and they all came in tired. I did what I could to brighten them up, and I suppose that the effort did me good, for I forgot how tired I was. After dinner they sent me to bed, and all went off to smoke together, as they said, but I knew that they wanted to tell each other of what had occurred to each during the day; I could see from Jonathan’s manner that he had something important to communicate. I was not so sleepy as I should have been; so before they went I asked Dr. Seward to give me a little opiate of some kind, as I had not slept well the night before. He very kindly made me up a sleeping draught, which he gave to me, telling me that it would do me no harm, as it was very mild.... I have taken it, and am waiting for sleep, which still keeps aloof. I hope I have not done wrong, for as sleep begins to flirt with me, a new fear comes: that I may have been foolish in thus depriving myself of the power of waking. I might want it. Here comes sleep. Good-night."
+      ]
+    },
+    {
+      "id": 172,
+      "month": "October",
+      "day": "02",
+      "source": "Dr. Seward’s Diary.",
+      "sourceType": "Journal",
+      "entry": [
+        "Later.—We have met again. We seem at last to be on the track, and our work of to-morrow may be the beginning of the end. I wonder if Renfield’s quiet has anything to do with this. His moods have so followed the doings of the Count, that the coming destruction of the monster may be carried to him in some subtle way. If we could only get some hint as to what passed in his mind, between the time of my argument with him to-day and his resumption of fly-catching, it might afford us a valuable clue. He is now seemingly quiet for a spell.... Is he?—— That wild yell seemed to come from his room....",
+        "The attendant came bursting into my room and told me that Renfield had somehow met with some accident. He had heard him yell; and when he went to him found him lying on his face on the floor, all covered with blood. I must go at once...."
       ]
     },
     {
