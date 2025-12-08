@@ -25,7 +25,8 @@ function getLatestJournalEntries(date, filtered) {
   return (filtered = getLatestJournalEntries(tomorrow, filtered));
 }
 
-export async function GET(request, { params }) {
+export async function GET(request, props) {
+  const params = await props.params;
   const date = datePlusOneDay(params.date);
 
   let filtered = [];

@@ -2,7 +2,8 @@ import { NextResponse } from "next/server";
 import journalentries from "@/json/journalentries.json";
 import { getParamMonthNumber } from "@/app/utils/dateHelpers";
 
-export async function GET(request, { params }) {
+export async function GET(request, props) {
+  const params = await props.params;
   const sourcetype = params.sourcetype;
 
   const filtered = journalentries.journalentries

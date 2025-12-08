@@ -26,7 +26,8 @@ async function getSourceType() {
   return uniqueArray;
 }
 
-export default function EntryPage({ params }) {
+export default async function EntryPage(props) {
+  const params = await props.params;
   const api = `${process.env.API_URL}api/journalentries/date/${params.entry}`;
 
   return (

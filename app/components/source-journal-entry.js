@@ -1,4 +1,5 @@
 import React from "react";
+import { Fragment } from "react";
 import EntryText from "./entry-text";
 import { getData } from "../utils/apiHelpers";
 
@@ -11,12 +12,12 @@ export default async function SourceJournalEntry({ api }) {
     <>
       {data.journalentries.map((entry) => {
         return (
-          <>
-            <h2 key={entry.id}>
+          <Fragment key={entry.id}>
+            <h2>
               {entry.month} {entry.day}
             </h2>
-            <EntryText key={entry.id} entry={entry} />
-          </>
+            <EntryText entry={entry} />
+          </Fragment>
         );
       })}
     </>
